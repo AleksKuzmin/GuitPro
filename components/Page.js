@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
 
 const InnerStyles = styled.div`
 
-max.width; var(--maxWidth);
+max.width: var(--maxWidth);
 margin: 0 auto;
 padding: 2rem;
 `;
@@ -32,12 +32,11 @@ export default function Page({ children }) {
     <div>
       <GlobalStyles />
       <Header />
-      <InnerStyles> </InnerStyles>
+      <InnerStyles>{children}</InnerStyles> 
     </div>
   );
 }
 
 Page.propTypes = {
-  cool: PropTypes.string,
-  children: PropTypes.any,
+  children: PropTypes.any
 };
