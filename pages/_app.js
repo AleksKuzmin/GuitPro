@@ -19,7 +19,7 @@ MyApp.getInitialProps = async function ({ Component, ctx }) {
   }
 
   pageProps.query = ctx.query;
-  console.log("line 23", pageProps.query);
+
   return { pageProps };
 };
 export default withData(MyApp);

@@ -32,12 +32,11 @@ export default function Page({ children }) {
     <div>
       <GlobalStyles />
       <Header />
-      <InnerStyles> </InnerStyles>
+      <InnerStyles>{children}</InnerStyles>
     </div>
   );
 }
 
 Page.propTypes = {
-  cool: PropTypes.string,
   children: PropTypes.any,
 };
