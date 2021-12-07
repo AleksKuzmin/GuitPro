@@ -1,8 +1,9 @@
-import Page from "../components/Page";
-export default function SellPage() {
+import CreateProduct from '../components/CreateProduct';
+
+export default function sellPage() {
   return (
-    <>
-      <p>Hello!</p>
-    </>
+    <div>
+      <CreateProduct />
+    </div>
   );
 }

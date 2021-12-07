@@ -1,16 +1,19 @@
-import Link from "next/link";
-import styled from "styled-components";
-import Nav from "./Nav";
+import Link from 'next/link';
+import styled from 'styled-components';
+import Nav from './Nav';
 
 const Logo = styled.h1`
-  /* background: black; */
-  margin-left: 3rem;
-  color: black;
+  font-size: 4rem;
+  margin-left: 2rem;
   position: relative;
   z-index: 2;
-  transform: skew(-5deg);
+  background: red;
+  transform: skew(-7deg);
   a {
-    padding: 1rem 1 rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
   }
 `;
 
@@ -20,28 +23,28 @@ const HeaderStyles = styled.header`
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
   }
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 10px solid var(--black, black);
   }
 `;
+
 export default function Header() {
   return (
     <HeaderStyles>
-      <header>
-        <div className="bar">
-          <Logo>
-            <Link href="/">
-              <h1>GuitPro</h1>
-            </Link>
-          </Logo>
-        </div>
-        <div className="sub-bar">Search</div>
+      <div className="bar">
+        <Logo>
+          <Link href="/">
+            <h1>Sick fits</h1>
+          </Link>
+        </Logo>
         <Nav />
-      </header>
+      </div>
+      <div className="sub-bar">
+        <p>Search</p>
+      </div>
     </HeaderStyles>
   );
 }
