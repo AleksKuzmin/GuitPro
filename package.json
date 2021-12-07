@@ -6,7 +6,8 @@
     "dev": "next -p 3333",
     "build": "next build",
     "start": "next start -p 3333",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "NODE_ENV=test jest --watch"
   },
   "dependencies": {
     "@apollo/client": "3.5.5",
@@ -85,6 +86,27 @@
       "production": {
         "presets": [
           "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "test": {
+        "presets": [
+          [
+            "next/babel",
+            {
+              "preset-env": {
+                "modules": "commonjs"
+              }
+            }
+          ]
         ],
         "plugins": [
           [
