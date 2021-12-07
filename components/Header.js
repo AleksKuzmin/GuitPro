@@ -1,13 +1,14 @@
-import Link from 'next/link';
-import styled from 'styled-components';
-import Nav from './Nav';
+import Link from "next/link";
+import styled from "styled-components";
+import Nav from "./Nav";
 
 const Logo = styled.h1`
   font-size: 4rem;
+  color: white;
   margin-left: 2rem;
   position: relative;
   z-index: 2;
-  background: red;
+  background: black;
   transform: skew(-7deg);
   a {
     color: white;
@@ -37,7 +38,7 @@ export default function Header() {
       <div className="bar">
         <Logo>
           <Link href="/">
-            <h1>Sick fits</h1>
+            <h1>GuitPro</h1>
           </Link>
         </Logo>
         <Nav />
