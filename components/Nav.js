@@ -8,6 +8,12 @@ export default function Nav() {
 
   return (
     <NavStyles>
+<<<<<<< HEAD
+      <Link href="/products">Guitars</Link>
+      <Link href="/sell">Sell</Link>
+      <Link href="/orders">Orders</Link>
+      <Link href="/account">Account</Link>
+=======
       <Link href="/products">Products</Link>
       {user && (
         <>
@@ -22,6 +28,7 @@ export default function Nav() {
           <Link href="/signin">Sign In</Link>
         </>
       )}
+>>>>>>> 8f07b39534f0804fff9c5ebaa8f86306b1e475ea
     </NavStyles>
   );
 }
