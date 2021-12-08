@@ -71,7 +71,7 @@ export default function Search() {
       <DropDown {...getMenuProps()}>
         {items.map((item) => (
           <DropDownItem key={item.id} {...getItemProps({ item })}>
-            <img
+            <image
               src={item.photo.image.publicUrlTransformed}
               alt={item.name}
               width="50"
