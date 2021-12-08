@@ -34,9 +34,9 @@ const CREATE_PRODUCT_MUTATION = gql`
 export default function CreateProduct() {
   const { inputs, handleChange, clearForm, resetForm } = useForm({
     image: '',
-    name: 'Nice Shoes',
-    price: 34234,
-    description: 'These are the best shoes!',
+    name: 'Gibson?',
+    price: 3423,
+    description: 'What kind of Guitar?',
   });
 
   // when the mutation fires off, please refetch all queries.
