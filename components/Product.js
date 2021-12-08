@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 import Link from 'next/link';
 import ItemStyles from './styles/ItemStyles';
 import Title from './styles/Title';
 import PriceTag from './styles/PriceTag';
 import formatMoney from '../lib/formatMoney';
 import DeleteProduct from './DeleteProduct';
-=======
-import Link from "next/link";
-import ItemStyles from "./styles/ItemStyles";
-import Title from "./styles/Title";
-import PriceTag from "./styles/PriceTag";
-import formatMoney from "../lib/formatMoney";
->>>>>>> 8f07b39534f0804fff9c5ebaa8f86306b1e475ea
 
 export default function Product({ product }) {
   return (

@@ -4,14 +4,11 @@ import Nav from "./Nav";
 
 const Logo = styled.h1`
   font-size: 4rem;
-  color: white;
+  color: Black;
   margin-left: 2rem;
   position: relative;
   z-index: 2;
-<<<<<<< HEAD
-=======
-  background: black;
->>>>>>> 8f07b39534f0804fff9c5ebaa8f86306b1e475ea
+  /* background: black; */
   transform: skew(-7deg);
   a {
     color: white;
