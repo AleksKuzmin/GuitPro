@@ -36,21 +36,26 @@ export default function Search() {
   const findItemsWithDebounce = debounce(findItems, 350);
 
   resetIdCounter();
-  const { inputValue, getMenuProps, getInputProps, getComboboxProps } =
-    useCombobox({
-      items: [],
-      onInputValueChange() {
-        console.log("Input changed!");
-        findItemsWithDebounce({
-          variables: {
-            searchTerm: inputValue,
-          },
-        });
-      },
-      onSelectedItemChange() {
-        console.log("Selected Item change!");
-      },
-    });
+  const {
+    inputValue,
+    getMenuProps,
+    getInputProps,
+    getComboboxProps,
+    getItemProps,
+  } = useCombobox({
+    items,
+    onInputValueChange() {
+      console.log("Input changed!");
+      findItemsWithDebounce({
+        variables: {
+          searchTerm: inputValue,
+        },
+      });
+    },
+    onSelectedItemChange() {
+      console.log("Selected Item change!");
+    },
+  });
   return (
     <SearchStyles>
       <div {...getComboboxProps()}>
@@ -65,7 +70,14 @@ export default function Search() {
       </div>
       <DropDown {...getMenuProps()}>
         {items.map((item) => (
-          <DropDownItem>{item.name}</DropDownItem>
+          <DropDownItem key={item.id} {...getItemProps({ item })}>
+            <img
+              src={item.photo.image.publicUrlTransformed}
+              alt={item.name}
+              width="50"
+            />
+            {item.name}
+          </DropDownItem>
         ))}
       </DropDown>
     </SearchStyles>

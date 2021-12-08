@@ -41,12 +41,6 @@ export default function SignUp() {
     resetForm();
   }
 
-  // const error =
-  //   data?.authenticateUserWithPassword.__typename ===
-  //   "UserAuthenticationWithPasswordFailure"
-  //     ? data?.authenticateUserWithPassword
-  //     : undefined;
-
   return (
     <Form method="POST" onSubmit={handleSubmit}>
       <h2>Sign Up For An Account</h2>

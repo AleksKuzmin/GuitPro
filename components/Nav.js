@@ -8,9 +8,10 @@ export default function Nav() {
   const user = useUser();
   console.log("user", user);
 
+export default function Nav() {
   return (
     <NavStyles>
-      <Link href="/products">Products</Link>
+      <Link href="/products">Guitars</Link>
       {user && (
         <>
           <Link href="/sell">Sell</Link>
