@@ -3,12 +3,8 @@ import SignOut from "./SignOut";
 import NavStyles from "./styles/NavStyles";
 import { useUser } from "./User";
 
-
 export default function Nav() {
   const user = useUser();
-  console.log("user", user);
-
-export default function Nav() {
   return (
     <NavStyles>
       <Link href="/products">Guitars</Link>
