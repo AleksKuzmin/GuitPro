@@ -47,3 +47,5 @@ export default function Products({ page }) {
     </div>
   );
 }
+
+//https://www.apollographql.com/docs/react/data/queries/
