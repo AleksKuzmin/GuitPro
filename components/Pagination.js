@@ -25,7 +25,7 @@ export default function Pagination({ page }) {
       <Head>
         <title>
          GuitPro - Page {page} of {pageCount}
-        </title>
+        </title> 
       </Head>
       <Link href={`/products/${page - 1}`}>
         <a aria-disabled={page <= 1}>← Prev</a>
