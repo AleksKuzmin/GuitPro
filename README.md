@@ -29,10 +29,17 @@ Throughout the Project our aim was to familiarize ourselves with new technologie
 
 1.React\
 1.Next.js\
+1.Node.js\
 1.GraphQL\
 1.Keystone\
 1.Apollo\
 1.Cloudinary
+1.MongoDB\
+
+### What we learnt?
+
+How to use Next.js, How to perform Graph QL mutations (Create, update, delete). We learnt how to fetch data via Graph QL Queries.
+
 
 ## Project status:
 
@@ -41,7 +48,7 @@ Current working version includes the following feature.
 1.Sign in and sign out\
 1.photo upload\
 1.CRUD system\
-1.Products Page\
+1.Products Page
 1.Pagination
 
 
@@ -50,3 +57,9 @@ Current working version includes the following feature.
 The next steps will include:
 1. completeing the cart.
 1. Stripe Check out.
+
+
+## Contributors
+
+Angeline Polidano @angepol
+Aleks Kuzmin @AleksKuzmin
