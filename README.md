@@ -15,7 +15,7 @@ yarn dev
 ### Backend localhost:3000\
 ### Frontend localhost:3333\
 ==============================================================
-
+## Description.
 GuitPro is an online market place for guitars.
 One can create an account list your guitar, and buy guitars.
 
@@ -28,6 +28,7 @@ Throughout the Project our aim was to familiarize ourselves with new technologie
 ## Technologies
 
 1.React\
+1.Style Components\
 1.Next.js\
 1.Node.js\
 1.GraphQL\
