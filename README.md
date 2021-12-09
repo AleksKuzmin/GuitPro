@@ -32,8 +32,7 @@ Throughout the Project our aim was to familiarize ourselves with new technologie
 1.GraphQL\
 1.Keystone\
 1.Apollo\
-1.Cloudinary
-\
+1.Cloudinary\
 
 ## Project status:
 
