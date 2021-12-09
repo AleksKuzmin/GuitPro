@@ -12,8 +12,8 @@ npm run dev
 # or
 yarn dev
 ```
-Backend localhost:3000
-Frontend localhost:3333
+### Backend localhost:3000
+### Frontend localhost:3333
 ==============================================================
 
 GitPro is an online market place for guitars.
