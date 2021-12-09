@@ -32,7 +32,7 @@ Throughout the Project our aim was to familiarize ourselves with new technologie
 1.GraphQL\
 1.Keystone\
 1.Apollo\
-1.Cloudinary\
+1.Cloudinary
 
 ## Project status:
 
@@ -48,6 +48,5 @@ Current working version includes the following feature.
 ## Next Steps.:
 
 The next steps will include:
-1. completeing the cart.\
-1. Stripe Check out.\
-
+1. completeing the cart.
+1. Stripe Check out.
