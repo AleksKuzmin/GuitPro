@@ -1,5 +1,5 @@
 
-# GitPro
+# GuitPro
 ==========
 
 
@@ -16,7 +16,7 @@ yarn dev
 ### Frontend localhost:3333\
 ==============================================================
 
-GitPro is an online market place for guitars.
+GuitPro is an online market place for guitars.
 One can create an account list your guitar, and buy guitars.
 
 ##
