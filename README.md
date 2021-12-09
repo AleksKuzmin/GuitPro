@@ -42,7 +42,7 @@ Current working version includes the following feature.
 1.photo upload\
 1.CRUD system\
 1.Products Page\
-1.Pagination\
+1.Pagination
 
 
 ## Next Steps.:
