@@ -12,7 +12,7 @@ npm run dev
 # or
 yarn dev
 ```
-### Backend localhost:3000\
+### Backend localhost:3000\. https://github.com/AleksKuzmin/backend-GuitPro
 ### Frontend localhost:3333\
 ==============================================================
 ## Description.
