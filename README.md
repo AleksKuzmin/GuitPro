@@ -12,7 +12,11 @@ npm run dev
 # or
 yarn dev
 ```
-### Backend localhost:3000\. https://github.com/AleksKuzmin/backend-GuitPro
+### Backend localhost:3000 
+https://github.com/AleksKuzmin/backend-GuitPro
+Currently not deployed.
+Frontend can only be run if backend run locally
+
 ### Frontend localhost:3333\
 ==============================================================
 ## Description.
